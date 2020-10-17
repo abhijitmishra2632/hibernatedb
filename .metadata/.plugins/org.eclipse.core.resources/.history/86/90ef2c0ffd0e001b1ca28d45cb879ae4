@@ -1,0 +1,16 @@
+package com.cosmos.contactnumbers.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/user")
+public class UserController {
+	@PostMapping("/fromprop")
+	public String addUsers() {
+		String str ="Success";
+		return str;
+	}
+
+}

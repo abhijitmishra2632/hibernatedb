@@ -1,0 +1,23 @@
+package com.cosmos.contactnumbers.service;
+
+import java.util.Properties;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cosmos.contactnumbers.repository.UserRepository;
+
+@Service
+public class UserService {
+	@Autowired
+	private UserRepository userRepository;
+	String str ="C:\\Users\\91900\\Desktop\\GroceryDb\\addContacts.txt";
+	
+
+	public String addUsersFromProperties() {
+		// TODO Auto-generated method stub
+		Properties
+		return null;
+	}
+
+}

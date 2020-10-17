@@ -1,0 +1,14 @@
+package com.cosmos.contactnumbers.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@@Controller
+public class UserUIController {
+	@GetMapping("/index")
+	public String helloWorld() {
+		String msg="Hello Chikun";
+		return msg;
+	}
+
+}

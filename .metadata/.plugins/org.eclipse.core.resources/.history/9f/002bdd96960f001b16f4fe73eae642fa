@@ -1,0 +1,10 @@
+package com.cosmos.contactnumbers.model.backup;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "usercontactsbackup")
+public class UserBackup {
+
+}

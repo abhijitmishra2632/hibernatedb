@@ -1,0 +1,10 @@
+package com.cosmos.contactnumbers.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "usercontacts")
+public class Users {
+
+}

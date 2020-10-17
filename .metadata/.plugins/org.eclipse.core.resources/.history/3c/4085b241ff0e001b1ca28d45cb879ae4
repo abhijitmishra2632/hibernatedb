@@ -1,0 +1,30 @@
+package com.cosmos.contactnumbers.service;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cosmos.contactnumbers.repository.UserRepository;
+
+@Service
+public class UserService {
+	@Autowired
+	private UserRepository userRepository;
+	String str ="C://Users/91900/Desktop/GroceryDb/addContacts.txt";
+	
+
+	public String addUsersFromProperties() throws IOException {
+		// TODO Auto-generated method stub
+		Path path = Paths.get(str);
+		 
+	    BufferedReader reader = Files.newBufferedReader(path);
+	    String line = reader.readLine();
+		return null;
+	}
+
+}
